@@ -1,0 +1,41 @@
+/* 1439-769 */
+@media(max-width: 1000px) {
+/* container */
+.container {
+
+    padding: 64px 24px;}
+   
+/* section 2  */
+    .section_2 {
+        width: 50%;
+    }
+
+/* map section */
+    .map_section{
+        width: 50%;
+    }
+}
+
+@media(max-width: 800px) {
+    /* container */
+.container {
+    padding: 32px 24px;}
+
+/* section 1 */
+.section_1 {
+    display: flex;
+    flex-direction: column;
+    row-gap: 64px;
+    padding-inline:  16px;
+}
+   /* section 2  */
+   .section_2 {
+    width: 100%;
+}
+
+/* map section */
+.map_section{
+    width: 100%;
+}
+   
+}
